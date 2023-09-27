@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 40px;
+}
+input{
+    width: 70%;
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.196);
+    border: none;
+}
+.todo {
+    width: 50%;
+    padding: 20px;
+    margin: 100px auto;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    display: flex;
+    width: 80px;
+    color: black;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    cursor: pointer;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    transition: 1s;
+}
+button:hover{
+        background-color:black ;
+        color: aliceblue;
+}
+
+.w100 {
+    width: 100%;
+}
